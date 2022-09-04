@@ -93,9 +93,10 @@
                 <h3 class="page-header">
                     Tigers are valiant and dynamic individuals who love a decent test and experience throughout everyday life.
                     <br><br>
-                    <small>Like their eponymous zodiac creature, individuals brought into the world in long periods of the Tiger are overwhelming and aggressive, trying and fearless, energetic and liberal, self-assured with a feeling of equity and a guarantee to help other people for everyone's benefit.
-                        </small>
-                        </h3>
+                    <small>
+                        Like their eponymous zodiac creature, individuals brought into the world in long periods of the Tiger are overwhelming and aggressive, trying and fearless, energetic and liberal, self-assured with a feeling of equity and a guarantee to help other people for everyone's benefit.
+                    </small>
+                </h3>
 
                 <h1>
                     FAQ for Chinese New Year in 2022 :

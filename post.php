@@ -29,7 +29,7 @@
 
 </head>
 
-<body>
+<body style="background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:#0dcaf0;">
