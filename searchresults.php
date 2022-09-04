@@ -32,7 +32,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:#0dcaf0;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">CHINESE NEW YEAR</a>
+                <a class="navbar-brand" href="index.php" style="color: #ffffff;">CHINESE NEW YEAR</a>
             </div>
             <!-- Collect the nav links, forms, and other searchResults for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,12 +55,17 @@
 
                     while ($row = mysqli_fetch_array($getMainArticles)) {
                         echo "<li>";
-                        echo "<a href='post.php?id=$row[article_id]'>" . $row['article_title'] . "</a>";
+                        echo "<a style='color: #ffffff;' href='post.php?id=$row[article_id]'>" . $row['article_title'] . "</a>";
                         echo "</li>";
                     }
 
 
                     ?>
+
+                    <li>
+                        <a style='color: #ffffff;' href='CNYWebsite/index.php'>Shopping</a>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

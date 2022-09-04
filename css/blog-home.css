@@ -6,8 +6,15 @@
 
 body {
     padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
 }
 
 footer {
     margin: 50px 0;
 }
+
+li:hover > a
+{
+    background-color: gray;
+}
+
