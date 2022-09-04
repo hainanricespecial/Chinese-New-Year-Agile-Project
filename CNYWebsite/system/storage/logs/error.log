@@ -1,0 +1,22 @@
+2022-08-17 6:19:31 - Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''d% ORDER BY f.`sort_order` ASC LIMIT 0,5' at line 1<br />Error No: 1064<br />SELECT *, (SELECT name FROM `oc_filter_group_description` fgd WHERE f.`filter_group_id` = fgd.`filter_group_id` AND fgd.`language_id` = '1') AS `group` FROM `oc_filter` f LEFT JOIN `oc_filter_description` fd ON (f.`filter_id` = fd.`filter_id`) WHERE fd.`language_id` = '1' AND fd.`name` LIKE 'd% ORDER BY f.`sort_order` ASC LIMIT 0,5
+File: C:\xampp\htdocs\CNYWebsite\system\library\db\mysqli.php
+Line: 48
+
+2022-08-17 6:19:31 - Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''dju% ORDER BY f.`sort_order` ASC LIMIT 0,5' at line 1<br />Error No: 1064<br />SELECT *, (SELECT name FROM `oc_filter_group_description` fgd WHERE f.`filter_group_id` = fgd.`filter_group_id` AND fgd.`language_id` = '1') AS `group` FROM `oc_filter` f LEFT JOIN `oc_filter_description` fd ON (f.`filter_id` = fd.`filter_id`) WHERE fd.`language_id` = '1' AND fd.`name` LIKE 'dju% ORDER BY f.`sort_order` ASC LIMIT 0,5
+File: C:\xampp\htdocs\CNYWebsite\system\library\db\mysqli.php
+Line: 48
+
+2022-08-17 6:19:31 - Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''djunh% ORDER BY f.`sort_order` ASC LIMIT 0,5' at line 1<br />Error No: 1064<br />SELECT *, (SELECT name FROM `oc_filter_group_description` fgd WHERE f.`filter_group_id` = fgd.`filter_group_id` AND fgd.`language_id` = '1') AS `group` FROM `oc_filter` f LEFT JOIN `oc_filter_description` fd ON (f.`filter_id` = fd.`filter_id`) WHERE fd.`language_id` = '1' AND fd.`name` LIKE 'djunh% ORDER BY f.`sort_order` ASC LIMIT 0,5
+File: C:\xampp\htdocs\CNYWebsite\system\library\db\mysqli.php
+Line: 48
+
+2022-08-17 6:19:31 - Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''djunhg% ORDER BY f.`sort_order` ASC LIMIT 0,5' at line 1<br />Error No: 1064<br />SELECT *, (SELECT name FROM `oc_filter_group_description` fgd WHERE f.`filter_group_id` = fgd.`filter_group_id` AND fgd.`language_id` = '1') AS `group` FROM `oc_filter` f LEFT JOIN `oc_filter_description` fd ON (f.`filter_id` = fd.`filter_id`) WHERE fd.`language_id` = '1' AND fd.`name` LIKE 'djunhg% ORDER BY f.`sort_order` ASC LIMIT 0,5
+File: C:\xampp\htdocs\CNYWebsite\system\library\db\mysqli.php
+Line: 48
+
+2022-08-17 6:19:32 - Exception:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''djunhgr% ORDER BY f.`sort_order` ASC LIMIT 0,5' at line 1<br />Error No: 1064<br />SELECT *, (SELECT name FROM `oc_filter_group_description` fgd WHERE f.`filter_group_id` = fgd.`filter_group_id` AND fgd.`language_id` = '1') AS `group` FROM `oc_filter` f LEFT JOIN `oc_filter_description` fd ON (f.`filter_id` = fd.`filter_id`) WHERE fd.`language_id` = '1' AND fd.`name` LIKE 'djunhgr% ORDER BY f.`sort_order` ASC LIMIT 0,5
+File: C:\xampp\htdocs\CNYWebsite\system\library\db\mysqli.php
+Line: 48
+
+2022-08-17 7:29:46 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\CNYWebsite\system\library\mail\mail.php on line 95
+2022-08-31 8:13:01 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\CMS_TEMPLATE\CNYWebsite\system\library\mail\mail.php on line 95
